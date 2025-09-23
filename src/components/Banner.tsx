@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-white">
-              Why Over <span className="text-[#33e9f2]">10,000+</span> Customers Choose Waigera
+              Why Over <span className="text-[#33e9f2]">1,000+</span> Customers Choose Waigera
             </h2>
             
             <p className="text-lg text-gray-300">
@@ -69,12 +69,12 @@ const Banner = () => {
           <div className="space-y-6">
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-black/60 rounded-2xl border border-[#33e9f2]/30">
-                <div className="text-3xl font-bold text-[#33e9f2] mb-2">2,500+</div>
+                <div className="text-3xl font-bold text-[#33e9f2] mb-2">100+</div>
                 <div className="text-gray-300">Cars Sold</div>
               </div>
               
               <div className="text-center p-6 bg-black/60 rounded-2xl border border-[#33e9f2]/30">
-                <div className="text-3xl font-bold text-[#33e9f2] mb-2">15+</div>
+                <div className="text-3xl font-bold text-[#33e9f2] mb-2">5</div>
                 <div className="text-gray-300">Years Experience</div>
               </div>
               
