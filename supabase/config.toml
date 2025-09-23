@@ -1,0 +1,4 @@
+project_id = "moqlqadfpwubfhymeoqq"
+
+[functions.generate-car-review]
+verify_jwt = false
