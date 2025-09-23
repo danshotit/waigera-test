@@ -22,7 +22,7 @@ const premiumCars: CarProps[] = [
   {
     id: 102,
     title: "2024 Mercedes S-Class",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop",
+    image: "/lovable-uploads/3.jpg",
     price: "KES 22,000,000",
     year: 2024,
     mileage: "0 km",
