@@ -10,7 +10,7 @@ const premiumCars: CarProps[] = [
   {
     id: 101,
     title: "2024 Porsche 911 Carrera",
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=2074&auto=format&fit=crop",
+    image: "/lovable-uploads/3.jpg",
     price: "KES 18,500,000",
     year: 2024,
     mileage: "0 km",
