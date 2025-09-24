@@ -1,45 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Play } from 'lucide-react';
 
 const YouTubeReviews = () => {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+
   const reviews = [
     {
       id: 1,
-      title: "Toyota Camry 2023 - Complete Review & Test Drive",
-      videoId: "_KcJYCVRP7c",
-      thumbnail: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
+      title: "Meet This Crazy SUBARU Swapped 1968 VOLKSWAGEN KOMBI",
+      embedUrl: "https://www.youtube.com/embed/_KcJYCVRP7c?autoplay=1",
+      thumbnail: "https://img.youtube.com/vi/_KcJYCVRP7c/hqdefault.jpg",
       customerName: "Expert Review",
       rating: 5
     },
     {
       id: 2,
-      title: "Why Choose Waigera - Customer Success Stories",
-      videoId: "xXEOVxQd8S8",
-      thumbnail: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop",
+      title: "This Is Why President WILLIAM RUTO Only Uses The LEXUS LX 600",
+      embedUrl: "https://www.youtube.com/embed/xXEOVxQd8S8?autoplay=1",
+      thumbnail: "https://img.youtube.com/vi/xXEOVxQd8S8/hqdefault.jpg",
       customerName: "Customer Stories",
       rating: 5
     },
     {
       id: 3,
-      title: "Flexible Car Financing Options in Kenya",
-      videoId: "6JhNg0AsEOI",
-      thumbnail: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
+      title: "This Is The Only 6.7M KSH WALD KIT 2021 HILUX In Kenya",
+      embedUrl: "https://www.youtube.com/embed/u39kNeqOv1Y?autoplay=1",
+      thumbnail: "https://img.youtube.com/vi/u39kNeqOv1Y/hqdefault.jpg",
       customerName: "Finance Guide",
       rating: 5
     },
     {
       id: 4,
-      title: "Hassle-Free Car Trade-In Program",
-      videoId: "khmmXxcFBWI",
-      thumbnail: "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
+      title: "Is This Kenya’s Cleanest And Best Looking Toyota Corolla 100?",
+      embedUrl: "https://www.youtube.com/embed/6JhNg0AsEOI?autoplay=1",
+      thumbnail: "https://img.youtube.com/vi/6JhNg0AsEOI/hqdefault.jpg",
       customerName: "Trade-In Guide",
       rating: 5
     }
   ];
-
-  const handleVideoClick = (videoId: string) => {
-    window.open(`https://www.youtube.com/watch?v=${videoId}`, '_blank');
-  };
 
   return (
     <section className="py-20 bg-black">
@@ -47,7 +45,7 @@ const YouTubeReviews = () => {
         <div className="text-center mb-16">
           <h2 className="section-title text-white mb-4">Video Reviews</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Hear directly from our satisfied customers about their experience with Waigera
+            Hear directly from our satisfied customers about their experience with <span className="text-primary">Waigera</span>.
           </p>
         </div>
         
@@ -55,22 +53,39 @@ const YouTubeReviews = () => {
           {reviews.map((review, index) => (
             <div 
               key={review.id}
-              className="opacity-0 animate-fade-in group cursor-pointer"
+              className="opacity-0 animate-fade-in group"
               style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'forwards' }}
-              onClick={() => handleVideoClick(review.videoId)}
             >
-              <div className="bg-black border border-border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <div className="bg-black border border-border rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative">
-                  <img 
-                    src={review.thumbnail}
-                    alt={review.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/60 transition-colors">
-                    <div className="w-16 h-16 bg-[#33e9f2] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <Play className="w-8 h-8 text-black ml-1" fill="currentColor" />
-                    </div>
-                  </div>
+                  {activeVideo === review.embedUrl ? (
+                    <iframe
+                      width="100%"
+                      height="215"
+                      src={review.embedUrl}
+                      title={review.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    />
+                  ) : (
+                    <>
+                      <img 
+                        src={review.thumbnail}
+                        alt={review.title}
+                        className="w-full h-48 object-cover"
+                      />
+                      <div 
+                        className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/60 transition-colors cursor-pointer"
+                        onClick={() => setActiveVideo(review.embedUrl)}
+                      >
+                        <div className="w-16 h-16 bg-[#33e9f2] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                          <Play className="w-8 h-8 text-black ml-1" fill="currentColor" />
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
                 
                 <div className="p-4">
