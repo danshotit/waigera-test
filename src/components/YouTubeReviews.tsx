@@ -45,7 +45,7 @@ const YouTubeReviews = () => {
         <div className="text-center mb-16">
           <h2 className="section-title text-white mb-4">Video Reviews</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Experience with Waigera <span className="text-primary">Waigera</span>.
+            Experience with Waigera <span className="text-primary"></span>.
           </p>
         </div>
         
