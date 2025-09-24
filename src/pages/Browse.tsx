@@ -10,7 +10,7 @@ const allCars: CarProps[] = [
   {
     id: 1,
     title: "2023 Toyota Camry Hybrid",
-    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
+    image: "/lovable-uploads/3.jpg",
     price: "KES 4,200,000",
     year: 2023,
     mileage: "15,000 km",
