@@ -8,37 +8,37 @@ const Reviews = () => {
     {
       id: 1,
       embedId: "_KcJYCVRP7c",
-      title: "Toyota Camry 2023 - Complete Review & Test Drive"
+      title: "Meet This Crazy SUBARU Swapped 1968 VOLKSWAGEN KOMBI !!!"
     },
     {
       id: 2,
       embedId: "xXEOVxQd8S8",
-      title: "Why Choose Waigera - Customer Success Stories"
+      title: "This Is Why President WILLIAM RUTO Only Uses The LEXUS LX 600"
     },
     {
       id: 3,
       embedId: "u39kNeqOv1Y",
-      title: "150-Point Vehicle Inspection Process"
+      title: "This Is The Only 6.7M KSH WALD KIT 2021 HILUX In Kenya"
     },
     {
       id: 4,
       embedId: "6JhNg0AsEOI",
-      title: "Flexible Car Financing Options in Kenya"
+      title: "Is This Kenya’s Cleanest And Best Looking Toyota Corolla 100 ?"
     },
     {
       id: 5,
       embedId: "khmmXxcFBWI",
-      title: "Hassle-Free Car Trade-In Program"
+      title: "Would You Spend 8 Million KSH On A 2019 Audi A7"
     },
     {
       id: 6,
       embedId: "I2hTYWTN-2s",
-      title: "Essential Car Maintenance Tips for Kenyan Roads"
+      title: "This Is What An 8-MILLION KSH Classic Car Looks Like, 1966 MG-B"
     },
     {
       id: 7,
       embedId: "aolzmNE1ZBU",
-      title: "First-Time Car Buyer's Complete Guide"
+      title: "Is This The Best Modified Toyota Corolla In Kenya ?"
     }
   ];
 
