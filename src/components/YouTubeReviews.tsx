@@ -10,7 +10,7 @@ const YouTubeReviews = () => {
       title: "Meet This Crazy SUBARU Swapped 1968 VOLKSWAGEN KOMBI",
       embedUrl: "https://www.youtube.com/embed/_KcJYCVRP7c?autoplay=1",
       thumbnail: "https://img.youtube.com/vi/_KcJYCVRP7c/hqdefault.jpg",
-      customerName: "Expert Review",
+      customerName: "Meet This Crazy SUBARU Swapped 1968 VOLKSWAGEN KOMBI",
       rating: 5
     },
     {
@@ -18,7 +18,7 @@ const YouTubeReviews = () => {
       title: "This Is Why President WILLIAM RUTO Only Uses The LEXUS LX 600",
       embedUrl: "https://www.youtube.com/embed/xXEOVxQd8S8?autoplay=1",
       thumbnail: "https://img.youtube.com/vi/xXEOVxQd8S8/hqdefault.jpg",
-      customerName: "Customer Stories",
+      customerName: "This Is Why President WILLIAM RUTO Only Uses The LEXUS LX 600",
       rating: 5
     },
     {
@@ -26,7 +26,7 @@ const YouTubeReviews = () => {
       title: "This Is The Only 6.7M KSH WALD KIT 2021 HILUX In Kenya",
       embedUrl: "https://www.youtube.com/embed/u39kNeqOv1Y?autoplay=1",
       thumbnail: "https://img.youtube.com/vi/u39kNeqOv1Y/hqdefault.jpg",
-      customerName: "Finance Guide",
+      customerName: "This Is The Only 6.7M KSH WALD KIT 2021 HILUX In Kenya",
       rating: 5
     },
     {
@@ -34,7 +34,7 @@ const YouTubeReviews = () => {
       title: "Is This Kenya’s Cleanest And Best Looking Toyota Corolla 100?",
       embedUrl: "https://www.youtube.com/embed/6JhNg0AsEOI?autoplay=1",
       thumbnail: "https://img.youtube.com/vi/6JhNg0AsEOI/hqdefault.jpg",
-      customerName: "Trade-In Guide",
+      customerName: "Is This Kenya’s Cleanest And Best Looking Toyota Corolla 100?",
       rating: 5
     }
   ];
@@ -45,7 +45,7 @@ const YouTubeReviews = () => {
         <div className="text-center mb-16">
           <h2 className="section-title text-white mb-4">Video Reviews</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Hear directly from our satisfied customers about their experience with <span className="text-primary">Waigera</span>.
+            Experience with Waigera <span className="text-primary">Waigera</span>.
           </p>
         </div>
         
