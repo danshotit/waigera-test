@@ -861,19 +861,19 @@ const CarDetails = () => {
                 <div className="grid grid-cols-2 gap-4 text-sm mb-8">
                   <div className="flex flex-col">
                     <span className="text-gray-500 dark:text-white mb-1">Year</span>
-                    <span className="text-gray-900 dark:text-white">{car?.year}</span>
+                    <span className="text-white">{car?.year}</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-gray-500 dark:text-white mb-1">Mileage</span>
-                    <span className="text-gray-900 dark:text-white">{car?.mileage}</span>
+                    <span className="text-white">{car?.mileage}</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-gray-500 dark:text-white mb-1">Engine</span>
-                    <span className="text-gray-900 dark:text-white">{car?.engine}</span>
+                    <span className="text-white">{car?.engine}</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-gray-500 dark:text-white mb-1">Transmission</span>
-                    <span className="text-gray-900 dark:text-white">{car?.transmission}</span>
+                    <span className="text-white">{car?.transmission}</span>
                   </div>
                 </div>
                 
