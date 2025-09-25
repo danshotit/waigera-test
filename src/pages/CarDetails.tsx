@@ -961,7 +961,7 @@ const CarDetails = () => {
                     <div className="space-y-2">
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-orange-500 rounded-full flex-shrink-0"></div>
-                        <span className="text-muted-foreground">Minor wear on driver seat bolster - typical for age</span>
+                        
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
