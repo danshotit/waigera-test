@@ -441,7 +441,8 @@ const Index = () => {
       {/* Showroom Cars Section */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center mb-12">
+          <div className="flex justify-between items-center mb-12 border border-white rounded-xl">
+
             <h2 className="section-title">Premium Collection</h2>
             <Link to="/showroom">
               <Button variant="outline" className="border-[#33e9f2] text-[#33e9f2] hover:bg-[#33e9f2]/10 group">
@@ -467,7 +468,8 @@ const Index = () => {
       
       {/* About Waigera Section */}
       <section className="py-20 bg-black">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 border border-white rounded-xl">
+
           <div className="text-center mb-16">
             <h2 className="section-title text-white mb-8">About Waigera</h2>
             <div className="max-w-4xl mx-auto">
