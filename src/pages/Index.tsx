@@ -25,7 +25,7 @@ const newArrivals: CarProps[] = [
     mileage: "",
     location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "Automatic",
+    transmission: "8-speed Tiptronic S Automatic",
     engine: "3.0L V6"
   },
   {
@@ -42,78 +42,78 @@ const newArrivals: CarProps[] = [
   },
   {
     id: 3,
-    title: "2023 Mazda CX-5",
-    image: "https://images.unsplash.com/photo-1612911912304-5c8532fb94fb?q=80&w=2070&auto=format&fit=crop",
+    title: "2017 Mercedes Benz GLE 350D ",
+    image: "/lovable-uploads/f.jpg",
     price: "KES 5,800,000",
-    year: 2023,
-    mileage: "12,000 km",
-    location: "Nakuru",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.0L Turbo"
+    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
+    engine: "3.0L V6 Turbocharged Diesel"
   },
   {
     id: 4,
-    title: "2022 Subaru Outback",
-    image: "https://images.unsplash.com/photo-1626443274909-358db57edaf1?q=80&w=2070&auto=format&fit=crop",
+    title: "2017 Peugeot 308 Petrol Variant ",
+    image: "/lovable-uploads/d.jpg",
     price: "KES 2,300,000",
-    year: 2022,
-    mileage: "18,000 km",
-    location: "Eldoret",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "2.5L Boxer"
+    transmission: "6-speed Automatic",
+    engine: "1.6L Turbocharged inline-4"
   }
 ];
 
 const showroomCars: CarProps[] = [
   {
     id: 5,
-    title: "2024 Mercedes-AMG GLE 53",
-    image: "/lovable-uploads/4dbfb66c-2542-4bd2-b11d-68ff6c51b196.png",
+    title: "2018 Audi q5",
+    image: "/lovable-uploads/e.jpg",
     price: "KES 5,990,000",
-    year: 2024,
+    year: 2018,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L V6 Turbo"
+    transmission: "7-speed Automatic Dual-clutch",
+    engine: "2.0L Turbocharged inline-4 Engine"
   },
   {
     id: 6,
-    title: "2024 Range Rover Sport",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop",
+    title: "2022 Land Rover Defender 110",
+    image: "/lovable-uploads/c.jpg",
     price: "KES 18,900,000",
-    year: 2024,
+    year: 2022,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L V6"
+    transmission: "8-speed Automatic",
+    engine: "3.0L Inline 6 Twin-Turbocharged Diesel"
   },
   {
     id: 7,
-    title: "2024 BMW X7",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
+    title: "2017 Peugeot 308 Diesel Variant",
+    image: "/lovable-uploads/c.jpg",
     price: "KES 2,200,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Mombasa",
-    condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TwinPower"
-  },
-  {
-    id: 8,
-    title: "2024 Audi Q8",
-    image: "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-    price: "KES 6,900,000",
-    year: 2024,
+    year: 2017,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TFSI"
+    transmission: "6-speed Automatic",
+    engine: "1.6L BlueHDi Diesel Engine"
+  },
+  {
+    id: 8,
+    title: "2018 Ford Ranger Thunder",
+    image: "/lovable-uploads/m.jpg",
+    price: "KES 6,900,000",
+    year: 2018,
+    mileage: "0 km",
+    location: "Nairobi",
+    condition: "Showroom",
+    transmission: "10-speed Automatic",
+    engine: "2.0L Bi-Turbo Diesel"
   }
 ];
 
@@ -477,15 +477,15 @@ const Index = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">5000+</div>
+                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">1000+</div>
                   <p className="text-gray-400">Happy Customers</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">500+</div>
+                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">100+</div>
                   <p className="text-gray-400">Cars Sold Monthly</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">15+</div>
+                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">5+</div>
                   <p className="text-gray-400">Years Experience</p>
                 </div>
               </div>
