@@ -125,7 +125,8 @@ const Showroom = () => {
       {/* Showroom Cars Section */}
       <section className="py-16 bg-black border border-white rounded-xl">
 
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 border border-white rounded-xl">
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {showroomCars.map((car, index) => (
               <div 
