@@ -417,7 +417,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   17: {
     id: 17,
     title: "2021 BMW X3",
-    image: "/lovable-uploads/8ae49a93-e1e2-4bd5-bbb6-2f93f7c9f72c.png",
+    image: "//lovable-uploads/r.jpg",
     price: "KES 6,800,000",
     year: 2021,
     mileage: "28,000 km",
@@ -448,7 +448,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   18: {
     id: 18,
     title: "2022 Volkswagen Golf R",
-    image: "/lovable-uploads/db7f70cc-93dc-4ac2-8106-94e3f20766b1.png",
+    image: "//lovable-uploads/s.jpg",
     price: "KES 4,900,000",
     year: 2022,
     mileage: "25,000 km",
@@ -573,7 +573,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
     
     id: 22,
     title: "2014 BMW 116i",
-    image: "/lovable-uploads/p.jpg",
+    image: "/lovable-uploads/r.jpg",
     price: "KES 1,500,000",
     year: 2014,
     mileage: "",
@@ -593,17 +593,17 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
       
     ],
     gallery: [
-      "/lovable-uploads/p1.jpg",
-      "/lovable-uploads/p2.jpg",
-      "/lovable-uploads/p3.jpg",
-      "/lovable-uploads/p4.jpg"
+      "/lovable-uploads/r1.jpg",
+      "/lovable-uploads/r2.jpg",
+      "/lovable-uploads/r3.jpg",
+      "/lovable-uploads/r6.jpg"
     ]
   },
 //second hand cars
   23: {
     id: 23,
     title: "2011 Volkswagen Touareg TDI",
-    image: "",
+    image: "/lovable-uploads/s.jpg",
     price: "KES 2,750,000",
     year: 2011,
     mileage: "125,000kms",
@@ -631,10 +631,10 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
       
     ],
     gallery: [
-      "/lovable-uploads/q1.jpg",
-      "/lovable-uploads/q2.jpg",
-      "/lovable-uploads/q3.jpg",
-      "/lovable-uploads/q4.jpg"
+      "/lovable-uploads/s1.jpg",
+      "/lovable-uploads/s2.jpg",
+      "/lovable-uploads/s3.jpg",
+      "/lovable-uploads/s4.jpg"
     ]
   },
 
