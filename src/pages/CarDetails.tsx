@@ -960,8 +960,7 @@ const CarDetails = () => {
                     <h4 className="text-lg font-semibold text-foreground mb-3">Known Issues</h4>
                     <div className="space-y-2">
                       <div className="flex items-center space-x-3">
-                        <div className="w-2 h-2 bg-orange-500 rounded-full flex-shrink-0"></div>
-                        
+                      
                       </div>
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
