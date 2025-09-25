@@ -475,7 +475,7 @@ const Browse = () => {
               
               <div
                 key={car.id}
-                className="bg-black border border-border rounded-xl p-6 opacity-0 animate-fade-in"
+                className="bg-black border border-border rounded-xl p-6 opacity-0 "
                 style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'forwards' }}
               >
                 <CarCard car={car} />
