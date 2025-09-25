@@ -850,7 +850,7 @@ const CarDetails = () => {
                 
                 <div className="flex items-center mb-6">
                   <span className="text-[#33e9f2] font-semibold mr-3">{car?.condition}</span>
-                  <div className="flex items-center text-gray-600 dark:text-white">
+                  <div className="flex items-center text-white">
                     <Navigation className="w-4 h-4 mr-1" />
                     <span>{car?.location}</span>
                   </div>
@@ -881,10 +881,11 @@ const CarDetails = () => {
                   <Link to="/contact">
                     <Button className="bg-[#33e9f2] hover:bg-[#2bd4df] text-black w-full">Contact Seller</Button>
                   </Link>
-                  <Link to="/contact">
-                    <Button variant="outline" className="w-full border-gray-300 text-gray-700 hover:bg-gray-50">Book Test Drive</Button>
+                  {/*<Link to="/contact">
+                    <Button variant="outline" className="w-full border-gray-300 text-white ">Book Test Drive</Button>
                   </Link>
-                  <Button variant="outline" className="w-full border-gray-300 text-gray-700 hover:bg-gray-50">Apply for Financing</Button>
+                  <Button variant="outline" className="w-full border-gray-300 text-white ">Apply for Financing</Button>
+                  */}
                 </div>
               </div>
               
