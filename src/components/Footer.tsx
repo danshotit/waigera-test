@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <Car className="w-8 h-8 text-kenya-purple" />
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-kenya-blue to-kenya-purple">Waigera</span>
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-kenya-blue to-kenya-purple"></span>
             </Link>
             <p className="text-sm max-w-xs">
               The premier destination for buying and selling quality used and showroom cars in Nairobi, Kenya.
