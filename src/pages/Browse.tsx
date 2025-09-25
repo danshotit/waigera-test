@@ -473,9 +473,10 @@ const Browse = () => {
             <div ></div>
             {currentCars.map((car, index) => (
               
-              <div
-                key={car.id}
-                className="bg-black border border-white rounded-x p-6  "
+              <div 
+                key={car.id} 
+                className="opacity-0 animate-fade-in border border-white rounded-xl"
+
                 style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'forwards' }}
               >
                 <CarCard car={car} />
