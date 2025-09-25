@@ -144,7 +144,7 @@ const secondHandCars: CarProps[] = [
   },
   ];
 
-  {/*}
+  {/*
   {
     id: 24,
     title: "2018 Honda Fit",

@@ -586,26 +586,35 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
       "/lovable-uploads/p4.jpg"
     ]
   },
+//second hand cars
   23: {
     id: 23,
     title: "2011 Volkswagen Touareg TDI",
     image: "",
     price: "KES 2,750,000",
     year: 2011,
-    mileage: "",
+    mileage: "125,000kms",
     location: "Nairobi",
     condition: "Second Hand",
     transmission: "Automatic transmission",
     engine: "3000cc TDI",
-    description: "This 2011 Toyota Mark X offers reliable performance and luxury features at an affordable price. Despite its mileage, this V6-powered sedan has been well-maintained and provides excellent value for money with Toyota's renowned reliability.",
+    description: "The 2011 Touareg TDI is a solid pick if you want a large SUV that combines strong diesel torque, real towing capability, off-road readiness, and a refined driving experience. Just be prepared for potential maintenance costs down the line—especially with older models or higher mileage.",
     features: [
-      "Engine 1600cc petrol engine",
+      "Engine size 3000cc TDI",
       "Automatic Transmission",
-      "⁠Drive Type 2wd",
-      "⁠Entertainment display",
-      "⁠Black & Beige leather seats",
-      "⁠Black Paint code",
-      " Seaters 5"
+      "⁠Drive type : 4WD optional",
+      "⁠Matte Black original color",
+      "⁠Fog lights",
+      "⁠Full leather seats",
+      " ⁠Stock alloy wheels",
+      " ⁠Premium Audio system",
+      " ⁠Bluetooth connectivity",
+      " ⁠Dual zone climate control",
+      " ⁠ABS Brakes",
+      " ⁠Mileage 125,000kms",
+      " ⁠Premium Audio system",
+
+
       
     ],
     gallery: [
@@ -615,6 +624,8 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
       "/lovable-uploads/q4.jpg"
     ]
   },
+
+  
   24: {
     id: 24,
     title: "2018 Honda Fit",
