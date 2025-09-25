@@ -481,7 +481,7 @@ const Index = () => {
                   <p className="text-gray-400">Happy Customers</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">100+</div>
+                  <div className="text-3xl font-bold text-[#33e9f2] mb-2">10+</div>
                   <p className="text-gray-400">Cars Sold Monthly</p>
                 </div>
                 <div>
