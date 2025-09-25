@@ -247,33 +247,34 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   },
   8: {
     id: 8,
-    title: "2024 Audi Q8",
-    image: "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-    price: "KES 11,700,000",
-    year: 2024,
+    title: "2018 Ford Ranger Thunder",
+    image: "/lovable-uploads/m.jpg",
+    price: "KES 6,900,000",
+    year: 2018,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TFSI",
-    description: "The 2024 Audi Q8 represents the pinnacle of Audi's SUV lineup, combining coupe-like styling with SUV practicality. Features Audi's Virtual Cockpit and quattro all-wheel drive for superior handling in all conditions.",
+    transmission: "10-speed Automatic",
+    engine: "2.0L Bi-Turbo Diesel",
+    description: "In brief, the 2018 Ford Ranger Thunder is a bold, premium variant of the Ranger lineup—fusing Wildtrak refinement with sporty design cues, enhanced interior, advanced safety, and rugged utility that makes it both visually arresting and highly capable.",
     features: [
-      "3.0L TFSI V6 Engine",
-      "quattro All-Wheel Drive",
-      "Virtual Cockpit Plus",
-      "MMI Navigation Plus",
-      "Bang & Olufsen Sound",
-      "Matrix LED Headlights",
-      "Adaptive Air Suspension",
-      "360-Degree Cameras",
-      "Audi Drive Select",
-      "Park Assist Plus"
+      "2.0L Bi-Turbo Diesel Engine",
+      "⁠10-speed Automatic transmission",
+      "⁠4WD Capability ",
+      "⁠Adaptive Cruise Control",
+      "⁠Payload capacity over one tonne",
+      "Apple car play and Android Auto",
+      "⁠Dual-zone climate control",
+      "⁠18-inch alloy wheels",
+      "⁠Ford SYNC 3 infotainment system"
+
+
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2060&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1583267746897-2cf415887172?q=80&w=2070&auto=format&fit=crop"
+      "/lovable-uploads/m1.jpg",
+      "/lovable-uploads/m2.jpg",
+      "/lovable-uploads/m3.jpg",
+      "/lovable-uploads/m4.jpg"
     ]
   },
   9: {
