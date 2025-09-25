@@ -88,18 +88,18 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({ onFilter }) => {
               <SelectItem value="second-hand">Second Hand</SelectItem>
             </SelectContent>
           </Select>
-          <Button 
+          {/*<Button 
             type="button" 
             variant="outline" 
             className="flex items-center gap-2 bg-background border-border text-foreground hover:bg-muted"
             onClick={() => setIsFilterOpen(!isFilterOpen)}
           >
             <Filter className="w-4 h-4" />
-            Advanced Filters
+           {} Advanced Filters
           </Button>
           <Button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white">
             Search
-          </Button>
+          </Button>*/}
           <Button 
             type="button" 
             variant="outline"

@@ -299,16 +299,16 @@ const advertisements = [
   {
     id: 1,
     title: "Partner Showroom - Premium Motors",
-    image: "https://images.unsplash.com/photo-1562229935-57ba2cea2cd8?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop",
     description: "Luxury cars at unbeatable prices",
-    link: "#"
+    link: "/contact"
   },
   {
     id: 2,
     title: "Special Offer - Trade-in Bonus",
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2070&auto=format&fit=crop",
     description: "Get up to 20% extra on your trade-in",
-    link: "#"
+    link: "/contact"
   }
 ];
 
@@ -396,14 +396,14 @@ const Browse = () => {
   return (
     <>
       {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWJ64ZXEPY"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID');
+            gtag('config', 'G-MWJ64ZXEPY');
           `,
         }}
       />
