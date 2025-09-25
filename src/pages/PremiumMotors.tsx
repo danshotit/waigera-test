@@ -9,51 +9,51 @@ import { Star, Award, Shield, Phone, Mail } from "lucide-react";
 const premiumCars: CarProps[] = [
   {
     id: 101,
-    title: "2024 Porsche 911 Carrera",
-    image: "/lovable-uploads/3.jpg",
-    price: "KES 18,500,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
+    title: "2020 Lamborghini Urus Giallo Auge",
+    image: "/lovable-uploads/n.jpg",
+    price: "Upon request",
+    year: 2020,
+    mileage: "",
+    location: "Mombasa",
     condition: "Showroom",
-    transmission: "PDK",
-    engine: "3.0L Twin-Turbo"
+    transmission: "Automatic transmission",
+    engine: "4.0L Twin-Turbo V8"
   },
   {
-    id: 102,
-    title: "2024 Mercedes S-Class",
-    image: "/lovable-uploads/3.jpg",
-    price: "KES 22,000,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
+    id: 101,
+    title: "2018 Lexus RX300",
+    image: "/lovable-uploads/o.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
     condition: "Showroom",
-    transmission: "9G-Tronic",
-    engine: "3.0L V6"
+    transmission: "Automatic transmission",
+    engine: "2.0L Turbocharged Petrol"
   },
   {
-    id: 103,
-    title: "2024 BMW M5 Competition",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 16,800,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
+    id: 101,
+    title: "2022 Lexus LX600 VIP Elegance",
+    image: "/lovable-uploads/l.jpg",
+    price: "Upon request",
+    year: 2022,
+    mileage: "",
+    location: "Mombasa",
     condition: "Showroom",
-    transmission: "M Steptronic",
-    engine: "4.4L V8 Twin-Turbo"
+    transmission: "Automatic transmission",
+    engine: "3.5L Twin-Turbo Petrol"
   },
   {
-    id: 104,
-    title: "2024 Audi RS6 Avant",
-    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 19,200,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
+    id: 101,
+    title: "2018 Mercedes Benz E350e AMG LINE",
+    image: "/lovable-uploads/k.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
     condition: "Showroom",
-    transmission: "Tiptronic",
-    engine: "4.0L V8 TFSI"
+    transmission: "Automatic transmission",
+    engine: "2.0L  Petrol Engine + Electric Motor"
   }
 ];
 

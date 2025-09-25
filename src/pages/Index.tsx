@@ -94,7 +94,7 @@ const showroomCars: CarProps[] = [
   {
     id: 7,
     title: "2017 Peugeot 308 Diesel Variant",
-    image: "/lovable-uploads/c.jpg",
+    image: "/lovable-uploads/a.jpg",
     price: "KES 2,200,000",
     year: 2017,
     mileage: "0 km",
