@@ -8,150 +8,154 @@ import { Button } from "@/components/ui/button";
 // All cars data including second-hand cars
 const allCars: CarProps[] = [
   {
+    
     id: 1,
-    title: "2023 Toyota Camry Hybrid",
+    title: "2018 Porsche Cayenne ",
     image: "/lovable-uploads/3.jpg",
-    price: "KES 4,200,000",
-    year: 2023,
-    mileage: "15,000 km",
+    price: "KES 11,000,000",
+    year: 2018,
+    mileage: "",
     location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.5L Hybrid"
-  },
-  {
-    id: 2,
-    title: "2020 Toyota Fielder",
-    image: "/lovable-uploads/5e08b501-4d80-4ba6-b6e5-1ba29fe0ef46.png",
-    price: "KES 3,200,000",
-    year: 2020,
-    mileage: "45,000 km",
-    location: "Nairobi",
-    condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "1.5L"
-  },
-  {
-    id: 3,
-    title: "2023 Mazda CX-5",
-    image: "https://images.unsplash.com/photo-1612911912304-5c8532fb94fb?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 4,500,000",
-    year: 2023,
-    mileage: "12,000 km",
-    location: "Nakuru",
-    condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.0L Turbo"
-  },
-  {
-    id: 4,
-    title: "2022 Subaru Outback",
-    image: "https://images.unsplash.com/photo-1626443274909-358db57edaf1?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 4,100,000",
-    year: 2022,
-    mileage: "18,000 km",
-    location: "Eldoret",
-    condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "2.5L Boxer"
-  },
-  {
-    id: 5,
-    title: "2024 Mercedes-AMG GLE 53",
-    image: "/lovable-uploads/4dbfb66c-2542-4bd2-b11d-68ff6c51b196.png",
-    price: "KES 12,500,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
-    condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L V6 Turbo"
-  },
-  {
-    id: 6,
-    title: "2024 Range Rover Sport",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 15,200,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
-    condition: "Showroom",
-    transmission: "Automatic",
+    transmission: "8-speed Tiptronic S Automatic",
     engine: "3.0L V6"
   },
   {
-    id: 7,
-    title: "2024 BMW X7",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 13,800,000",
-    year: 2024,
+    id: 2,
+    title: "2018 Volkswagen Golf R ",
+    image: "/lovable-uploads/g.jpg",
+    price: "KES 4,390,000",
+    year: 2018,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "8-speed Tiptronic S Automatic ",
+    engine: "2.0L Turbocharged inline-4 Petrol"
+  },
+  {
+    id: 3,
+    title: "2017 Mercedes Benz GLE 350D ",
+    image: "/lovable-uploads/f.jpg",
+    price: "KES 5,800,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
+    engine: "3.0L V6 Turbocharged Diesel"
+  },
+  {
+    id: 4,
+    title: "2017 Peugeot 308 Petrol Variant ",
+    image: "/lovable-uploads/d.jpg",
+    price: "KES 2,300,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "6-speed Automatic",
+    engine: "1.6L Turbocharged inline-4"
+  
+  },
+  {
+    
+    id: 5,
+    title: "2018 Audi q5",
+    image: "/lovable-uploads/e.jpg",
+    price: "KES 5,990,000",
+    year: 2018,
     mileage: "0 km",
-    location: "Mombasa",
+    location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TwinPower"
+    transmission: "7-speed Automatic Dual-clutch",
+    engine: "2.0L Turbocharged inline-4 Engine"
+  },
+  {
+    id: 6,
+    title: "2022 Land Rover Defender 110",
+    image: "/lovable-uploads/c.jpg",
+    price: "KES 18,900,000",
+    year: 2022,
+    mileage: "0 km",
+    location: "Nairobi",
+    condition: "Showroom",
+    transmission: "8-speed Automatic",
+    engine: "3.0L Inline 6 Twin-Turbocharged Diesel"
+  },
+  {
+    id: 7,
+    title: "2017 Peugeot 308 Diesel Variant",
+    image: "/lovable-uploads/a.jpg",
+    price: "KES 2,200,000",
+    year: 2017,
+    mileage: "0 km",
+    location: "Nairobi",
+    condition: "Showroom",
+    transmission: "6-speed Automatic",
+    engine: "1.6L BlueHDi Diesel Engine"
   },
   {
     id: 8,
-    title: "2024 Audi Q8",
-    image: "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-    price: "KES 11,700,000",
-    year: 2024,
+    title: "2018 Ford Ranger Thunder",
+    image: "/lovable-uploads/m.jpg",
+    price: "KES 6,900,000",
+    year: 2018,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TFSI"
+    transmission: "10-speed Automatic",
+    engine: "2.0L Bi-Turbo Diesel"
   },
   {
-    id: 9,
-    title: "2023 Volkswagen Tiguan",
-    image: "https://images.unsplash.com/photo-1617654112368-307921291f42?q=80&w=1974&auto=format&fit=crop",
-    price: "KES 3,900,000",
-    year: 2023,
-    mileage: "20,000 km",
-    location: "Nairobi",
-    condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.0L TSI"
-  },
-  {
-    id: 10,
-    title: "2022 Nissan X-Trail",
-    image: "https://images.unsplash.com/photo-1609344215928-e57554ffa2a6?q=80&w=1972&auto=format&fit=crop",
-    price: "KES 4,200,000",
-    year: 2022,
-    mileage: "18,000 km",
+    id: 101,
+    title: "2020 Lamborghini Urus Giallo Auge",
+    image: "/lovable-uploads/n.jpg",
+    price: "Upon request",
+    year: 2020,
+    mileage: "",
     location: "Mombasa",
-    condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "2.5L"
-  },
-  {
-    id: 11,
-    title: "2023 Ford Ranger Raptor",
-    image: "https://images.unsplash.com/photo-1551830820-330a71b99659?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 5,600,000",
-    year: 2023,
-    mileage: "10,000 km",
-    location: "Kisumu",
-    condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "3.0L V6 Turbo"
-  },
-  {
-    id: 12,
-    title: "2024 Volvo XC90",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 11,200,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "2.0L T8 Hybrid"
+    transmission: "Automatic transmission",
+    engine: "4.0L Twin-Turbo V8"
   },
   {
+    id: 102,
+    title: "2018 Lexus RX300",
+    image: "/lovable-uploads/o.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
+    condition: "Showroom",
+    transmission: "Automatic transmission",
+    engine: "2.0L Turbocharged Petrol"
+  },
+  {
+    id: 103,
+    title: "2022 Lexus LX600 VIP Elegance",
+    image: "/lovable-uploads/l.jpg",
+    price: "Upon request",
+    year: 2022,
+    mileage: "",
+    location: "Mombasa",
+    condition: "Showroom",
+    transmission: "Automatic transmission",
+    engine: "3.5L Twin-Turbo Petrol"
+  },
+  {
+    id: 104,
+    title: "2018 Mercedes Benz E350e AMG LINE",
+    image: "/lovable-uploads/k.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
+    condition: "Showroom",
+    transmission: "Automatic transmission",
+    engine: "2.0L  Petrol Engine + Electric Motor"
+  },
+  ];
+  {/*{
     id: 17,
     title: "2021 BMW X3",
     image: "/lovable-uploads/8ae49a93-e1e2-4bd5-bbb6-2f93f7c9f72c.png",
@@ -271,8 +275,8 @@ const allCars: CarProps[] = [
     condition: "Second Hand",
     transmission: "Manual",
     engine: "2.0L"
-  }
-];
+  }*/}
+
 
 // Advertisement data
 const advertisements = [

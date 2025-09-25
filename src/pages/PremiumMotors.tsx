@@ -20,7 +20,7 @@ const premiumCars: CarProps[] = [
     engine: "4.0L Twin-Turbo V8"
   },
   {
-    id: 101,
+    id: 102,
     title: "2018 Lexus RX300",
     image: "/lovable-uploads/o.jpg",
     price: "Upon request",
@@ -32,7 +32,7 @@ const premiumCars: CarProps[] = [
     engine: "2.0L Turbocharged Petrol"
   },
   {
-    id: 101,
+    id: 103,
     title: "2022 Lexus LX600 VIP Elegance",
     image: "/lovable-uploads/l.jpg",
     price: "Upon request",
@@ -44,7 +44,7 @@ const premiumCars: CarProps[] = [
     engine: "3.5L Twin-Turbo Petrol"
   },
   {
-    id: 101,
+    id: 104,
     title: "2018 Mercedes Benz E350e AMG LINE",
     image: "/lovable-uploads/k.jpg",
     price: "Upon request",
