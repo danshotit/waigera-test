@@ -11,33 +11,33 @@ import { ChevronRight, Navigation, Phone, Mail, ArrowRight, Car as CarIcon } fro
 const carData: { [key: number]: CarProps & { description: string, features: string[], gallery: string[] } } = {
   1: {
     id: 1,
-    title: "2023 Toyota Camry Hybrid",
-    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
-    price: "KES 4,200,000",
-    year: 2023,
-    mileage: "15,000 km",
+    title: "2018 Porsche Cayenne ",
+    image: "/lovable-uploads/3.jpg",
+    price: "KES 11,000,000",
+    year: 2018,
+    mileage: "",
     location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.5L Hybrid",
+    transmission: "8-speed Tiptronic S Automatic",
+    engine: "3.0L V6",
     description: "This 2023 Toyota Camry Hybrid is in excellent condition with only 15,000 km on the odometer. It features a fuel-efficient 2.5L Hybrid engine paired with a smooth automatic transmission. This sedan offers a perfect blend of comfort, efficiency, and reliability with Toyota's renowned build quality.",
     features: [
-      "Hybrid Powertrain",
-      "LED Headlights",
-      "17-inch Alloy Wheels", 
-      "Sunroof",
-      "Toyota Safety Sense 2.0",
-      "Apple CarPlay & Android Auto",
-      "Heated Seats",
-      "Wireless Charging",
-      "Adaptive Cruise Control",
-      "Lane Keeping Assist"
+      "3.0l V6 Turbocharged Petrol Engine",
+     "⁠AWD system",
+     "⁠8-speed Tiptronic S Automatic Transmission",
+     "⁠Bose Sound system", 
+"⁠Sport chrono package ",
+"⁠Adaptive air suspension ",
+"⁠Front seats heated and ventilated", 
+"⁠Panaromic Sunroof",
+"⁠Dual-zone climate control", 
+"⁠360 surround view camera"
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1605893477799-b99e3b8b93fe?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?q=80&w=1974&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1581294723462-f9767087dff4?q=80&w=2070&auto=format&fit=crop"
+      "/lovable-uploads/3a.jpg",
+      "/lovable-uploads/3b.jpg",
+      "/lovable-uploads/3c.jpg",
+      "/lovable-uploads/3d.jpg"
     ]
   },
   2: {
