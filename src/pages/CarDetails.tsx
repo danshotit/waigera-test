@@ -20,7 +20,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
     condition: "Slightly Used",
     transmission: "8-speed Tiptronic S Automatic",
     engine: "3.0L V6",
-    description: "This 2023 Toyota Camry Hybrid is in excellent condition with only 15,000 km on the odometer. It features a fuel-efficient 2.5L Hybrid engine paired with a smooth automatic transmission. This sedan offers a perfect blend of comfort, efficiency, and reliability with Toyota's renowned build quality.",
+    description: "The 2018 Porsche Cayenne with the 3.0 L V6 is a well-rounded luxury SUV that blends Porsche’s sports-car DNA with the everyday functionality of an SUV. Expect responsive turbocharged power, refined handling thanks to high-tech chassis aids, and a polished, feature-rich interior that elevates the driving experience.",
     features: [
       "3.0l V6 Turbocharged Petrol Engine",
      "⁠AWD system",
@@ -42,33 +42,34 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   },
   2: {
     id: 2,
-    title: "2022 Honda CR-V",
-    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 3,800,000",
-    year: 2022,
-    mileage: "22,000 km",
-    location: "Mombasa",
+    title: "2018 Volkswagen Golf R ",
+    image: "/lovable-uploads/g.jpg",
+    price: "KES 4,390,000",
+    year: 2018,
+    mileage: "",
+    location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "1.5L Turbo",
-    description: "This reliable 2022 Honda CR-V comes with Honda's signature build quality and spacious interior. The 1.5L Turbo engine provides excellent performance while maintaining good fuel efficiency. Perfect for families looking for a dependable SUV with modern features.",
+    transmission: "8-speed Tiptronic S Automatic ",
+    engine: "2.0L Turbocharged inline-4 Petrol",
+    description: "The 2018 Golf R is a refined hot hatch—combining stealthy styling with sharp performance, all-wheel grip, and generous tech features. Whether tackling twisty roads or commuting, it delivers sports-car thrills in a sensible, luxurious package.",
     features: [
-      "1.5L VTEC Turbo Engine",
-      "LED Headlights",
-      "18-inch Alloy Wheels",
-      "Honda SENSING Safety Suite",
-      "Apple CarPlay & Android Auto",
-      "Dual-Zone Climate Control",
-      "Power Tailgate",
-      "Remote Engine Start",
-      "Lane Keeping Assist",
-      "Collision Mitigation Braking"
+      "2.0L Turbocharged inline-4 Petrol Engine",
+      "⁠AWD system",
+      "⁠7-speed DSG Dual-clutch Automatic Transmission",
+      "⁠Apple Carplay & Android Auto",
+      "⁠Adaptive Cruise Control",
+      "⁠Front seats heated and ventilated",
+      "⁠Electric Stability Control",
+      "⁠Dual-zone climate control",
+      "⁠360 surround view camera",
+      "C⁠Anti-lock Braking system"
+
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600706432502-77a0e2e39991?q=80&w=1974&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1534424211918-5466695f1371?q=80&w=1940&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560450961-3c0b63d8cb70?q=80&w=2071&auto=format&fit=crop"
+      "/lovable-uploads/g1.jpg",
+      "/lovable-uploads/g2.jpg",
+      "/lovable-uploads/g3.jpg",
+      "/lovable-uploads/g4.jpg"
     ]
   },
   3: {
