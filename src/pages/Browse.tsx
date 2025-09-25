@@ -107,7 +107,7 @@ const allCars: CarProps[] = [
     engine: "2.0L Bi-Turbo Diesel"
   },
   {
-    id: 101,
+    id: 9,
     title: "2020 Lamborghini Urus Giallo Auge",
     image: "/lovable-uploads/n.jpg",
     price: "Upon request",
@@ -119,7 +119,7 @@ const allCars: CarProps[] = [
     engine: "4.0L Twin-Turbo V8"
   },
   {
-    id: 102,
+    id: 10,
     title: "2018 Lexus RX300",
     image: "/lovable-uploads/o.jpg",
     price: "Upon request",
@@ -131,7 +131,7 @@ const allCars: CarProps[] = [
     engine: "2.0L Turbocharged Petrol"
   },
   {
-    id: 103,
+    id: 11,
     title: "2022 Lexus LX600 VIP Elegance",
     image: "/lovable-uploads/l.jpg",
     price: "Upon request",
@@ -143,7 +143,7 @@ const allCars: CarProps[] = [
     engine: "3.5L Twin-Turbo Petrol"
   },
   {
-    id: 104,
+    id: 12,
     title: "2018 Mercedes Benz E350e AMG LINE",
     image: "/lovable-uploads/k.jpg",
     price: "Upon request",
@@ -155,29 +155,18 @@ const allCars: CarProps[] = [
     engine: "2.0L  Petrol Engine + Electric Motor"
   },
   
- {
-    id: 17,
-    title: "2021 BMW X3",
-    image: "/lovable-uploads/8ae49a93-e1e2-4bd5-bbb6-2f93f7c9f72c.png",
-    price: "KES 6,800,000",
-    year: 2021,
-    mileage: "28,000 km",
-    location: "Nairobi",
-    condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.0L TwinPower"
-  },
+ 
   {
-    id: 18,
-    title: "2022 Volkswagen Golf R",
-    image: "/lovable-uploads/db7f70cc-93dc-4ac2-8106-94e3f20766b1.png",
-    price: "KES 4,900,000",
-    year: 2022,
-    mileage: "25,000 km",
-    location: "Mombasa",
-    condition: "Slightly Used",
-    transmission: "DSG",
-    engine: "2.0L TSI"
+    id: 21,
+    title: "2017 Mercedes Benz GLE 350D ",
+    image: "",
+    price: "KES 5,800,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Second Hand",
+    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
+    engine: "3.0L V6 Turbocharged Diesel"
   },
   {
     id: 22,
