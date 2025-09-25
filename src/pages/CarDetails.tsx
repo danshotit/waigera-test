@@ -828,7 +828,7 @@ const CarDetails = () => {
                     <div 
                       key={index}
                       className={`aspect-video rounded-md overflow-hidden cursor-pointer border-2 ${
-                        selectedImage === img ? 'border-blue-600' : 'border-gray-200'
+                        selectedImage === img ? 'border-blue-600' : 'border-white'
                       }`}
                       onClick={() => setSelectedImage(img)}
                     >
@@ -850,7 +850,7 @@ const CarDetails = () => {
                 
                 <div className="flex items-center mb-6">
                   <span className="text-[#33e9f2] font-semibold mr-3">{car?.condition}</span>
-                  <div className="flex items-center text-gray-600">
+                  <div className="flex items-center text-gray-600 dark:text-white">
                     <Navigation className="w-4 h-4 mr-1" />
                     <span>{car?.location}</span>
                   </div>
