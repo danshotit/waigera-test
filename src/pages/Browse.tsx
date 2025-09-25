@@ -158,7 +158,7 @@ const allCars: CarProps[] = [
   {
     id: 22,
     title: "2014 BMW 116i",
-    image: "",
+    image: "/lovable-uploads/r.jpg",
     price: "KES 1,500,000",
     year: 2014,
     mileage: "",
@@ -170,7 +170,7 @@ const allCars: CarProps[] = [
   {
     id: 23,
     title: "2011 Volkswagen Touareg TDI",
-    image: "",
+    image: "/lovable-uploads/s.jpg",
     price: "KES 2,750,000",
     year: 2011,
     mileage: "",
