@@ -155,19 +155,6 @@ const allCars: CarProps[] = [
     engine: "2.0L  Petrol Engine + Electric Motor"
   },
   
- 
-  {
-    id: 21,
-    title: "2017 Mercedes Benz GLE 350D ",
-    image: "",
-    price: "KES 5,800,000",
-    year: 2017,
-    mileage: "",
-    location: "Nairobi",
-    condition: "Second Hand",
-    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
-    engine: "3.0L V6 Turbocharged Diesel"
-  },
   {
     id: 22,
     title: "2014 BMW 116i",
@@ -194,6 +181,20 @@ const allCars: CarProps[] = [
   },
   ];
    {/*
+
+    {
+    id: 21,
+    title: "2017 Mercedes Benz GLE 350D ",
+    image: "",
+    price: "KES 5,800,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Second Hand",
+    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
+    engine: "3.0L V6 Turbocharged Diesel"
+  },
+
   {
     id: 19,
     title: "2023 Mitsubishi Lancer Evolution",
