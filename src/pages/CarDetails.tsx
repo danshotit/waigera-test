@@ -74,33 +74,36 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   },
   3: {
     id: 3,
-    title: "2023 Mazda CX-5",
-    image: "https://images.unsplash.com/photo-1612911912304-5c8532fb94fb?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 4,500,000",
-    year: 2023,
-    mileage: "12,000 km",
-    location: "Nakuru",
+    title: "2017 Mercedes Benz GLE 350D ",
+    image: "/lovable-uploads/f.jpg",
+    price: "KES 5,800,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "Automatic",
-    engine: "2.0L Turbo",
-    description: "The 2023 Mazda CX-5 combines striking design with exceptional driving dynamics. This compact SUV features Mazda's SKYACTIV technology and premium interior materials, making it perfect for both city driving and weekend adventures.",
+    transmission: "9-speed Automatic Transmission ( 9G-Tronic )",
+    engine: "3.0L V6 Turbocharged Diesel",
+    description: "The Mercedes-Benz GLE 350d blends diesel refinement with luxury and functionality. Ideal for buyers who want relaxed highway cruising, premium comfort, and tech-forward safety—yet still desire an SUV capable of handling varied terrain and practical family duties.",
     features: [
-      "SKYACTIV-G 2.0L Turbo Engine",
-      "i-ACTIV AWD System",
-      "Mazda Connect Infotainment",
-      "LED Signature Lighting",
-      "Bose Premium Audio",
-      "Leather-Appointed Seats",
-      "Power Liftgate",
-      "Smart Brake Support",
-      "Blind Spot Monitoring",
-      "Adaptive Cruise Control"
+      "3.0L V6 Turbocharged Diesel Engine",
+      "⁠AWD system",
+      "⁠9-speed Automatic Transmission ( 9G-Tronic )",
+      "⁠Apple Carplay & Android Auto",
+      "⁠Adaptive Cruise Control",
+      "⁠Front seats heated and ventilated",
+      "⁠Harman Kardon Sound system",
+      "⁠Dual-zone climate control",
+      "⁠360 surround view camera",
+      "⁠Anti-lock Braking system",
+      "⁠Panaromic Sunroof"
+
+       
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1612911912304-5c8532fb94fb?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626443274909-358db57edaf1?q=80&w=2070&auto=format&fit=crop"
+      "/lovable-uploads/f1.jpg",
+      "/lovable-uploads/f2.jpg",
+      "/lovable-uploads/f3.jpg",
+      "/lovable-uploads/f4.jpg"
     ]
   },
   4: {
