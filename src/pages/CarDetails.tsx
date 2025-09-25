@@ -214,33 +214,35 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   },
   7: {
     id: 7,
-    title: "2024 BMW X7",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 13,800,000",
-    year: 2024,
+    title: "2017 Peugeot 308 Diesel Variant",
+    image: "/lovable-uploads/a.jpg",
+    price: "KES 2,200,000",
+    year: 2017,
     mileage: "0 km",
-    location: "Mombasa",
+    location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TwinPower",
-    description: "BMW's flagship SUV for 2024, the X7 offers unparalleled luxury and space for seven passengers. Features BMW's latest iDrive system and innovative comfort features including massage seats and panoramic sky lounge roof.",
+    transmission: "6-speed Automatic",
+    engine: "1.6L BlueHDi Diesel Engine",
+    description: "The 2017 Peugeot 308 1.6 is a compelling choice for drivers seeking style, performance, and everyday flexibility. Its turbocharged powertrain delivers energetic acceleration, its efficient fuel use and moderate CO₂ output align with modern expectations, and its practicality ensures family-friendly usability—especially in estate configurations.",
     features: [
-      "3.0L TwinPower Turbo Engine",
-      "xDrive All-Wheel Drive",
-      "BMW Live Cockpit Professional",
-      "Harman Kardon Sound System",
-      "Comfort Access",
-      "Panoramic Sky Lounge Roof",
-      "Massage Seats",
-      "Gesture Control",
-      "Wireless Charging",
-      "BMW Intelligent Personal Assistant"
+      "1.6L BlueHDi Diesel",
+      "⁠Front-wheel drive system",
+      "⁠6-speed Automatic Transmission",
+      "⁠Multi-function steering wheel",
+      "⁠Adaptive Cruise Control",
+      "⁠Moonroof",
+      "⁠start / stop technology",
+      "⁠Dual-zone climate control",
+      "⁠ISOFIX Mounts",
+      "⁠Touchscreen Infotainment",
+      "⁠Rear Parking sensors"
+
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=2060&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1583267746897-2cf415887172?q=80&w=2070&auto=format&fit=crop"
+      "/lovable-uploads/a1.jpg",
+      "/lovable-uploads/a2.jpg",
+      "/lovable-uploads/a3.jpg",
+      "/lovable-uploads/a4.jpg"
     ]
   },
   8: {
