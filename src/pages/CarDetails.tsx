@@ -641,64 +641,67 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
 
   24: {
     id: 24,
-    title: "2018 Honda Fit",
-    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop",
+    title: "2013 Mercedes Benz C200",
+    image: "/lovable-uploads/t.jpg",
     price: "KES 1,900,000",
-    year: 2018,
+    year: 2013,
     mileage: "60,000 km",
-    location: "Mombasa",
+    location: "Nairobi",
     condition: "Second Hand",
-    transmission: "CVT",
-    engine: "1.3L",
-    description: "The 2018 Honda Fit is an economical and practical subcompact car ideal for city driving. With its spacious interior, excellent fuel economy, and Honda's reliability, it's perfect for first-time buyers or anyone looking for efficient urban transportation.",
+    transmission: "Automatic transmission",
+    engine: "1.8L, four-cylinder, petrol engine",
+    description: "The 2013 C Class is a compact executive car offered in sedan and wagon/coupe styles. Mercedes markets it as a refined blend of comfort, safety, and handling—aimed at buyers wanting a premium yet relatively compact car.  ￼In Kenya, it’s viewed as a solid executive sedan — spacious enough, well-finished interior, though import costs and servicing are considerations",
     features: [
-      "1.3L i-VTEC Engine",
-      "CVT Transmission",
-      "Magic Seats Configuration",
-      "Honda LaneWatch",
-      "Multi-Angle Rearview Camera",
-      "Honda Link Infotainment",
-      "Eco Assist System",
-      "Hill Start Assist",
-      "Vehicle Stability Assist",
-      "Bluetooth Hands-Free"
+      "⁠Automatic transmission",
+      "⁠Matte Black original color",
+      "⁠Fog lights",
+      "⁠Stock alloy wheels",
+      "⁠Premium Audio system",
+      "⁠Bluetooth",
+      "Dual zone climate control",
+      "⁠Mileage 60,000 kms",
+      "Cruise Control"
+      
+
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop"
+      "/lovable-uploads/t1.jpg",
+      "/lovable-uploads/t2.jpg",
+      "/lovable-uploads/t3.jpg",
+      "/lovable-uploads/t4.jpg"
     ]
   },
   25: {
     id: 25,
-    title: "2020 Mazda Demio",
-    image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop",
-    price: "KES 2,200,000",
-    year: 2020,
-    mileage: "35,000 km",
-    location: "Kisumu",
-    condition: "Second Hand",
-    transmission: "Automatic",
-    engine: "1.5L",
+    title: "2016 Ford Mustang EcoBoost",
+    image: "/lovable-uploads/u.jpg",
+    price: "KES 5,990,000",
+    year: 2016,
+    mileage: "7,347 Km",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "6-speed Automatic transmission",
+    engine: "12.3L Eco Boost Turbo I4 petrol",
     description: "The 2020 Mazda Demio combines Mazda's SKYACTIV technology with stylish design and excellent fuel efficiency. This compact car offers a premium feel with advanced safety features and responsive handling perfect for city and highway driving.",
     features: [
-      "1.5L SKYACTIV-G Engine",
-      "SKYACTIV-Drive Automatic",
-      "MZD Connect Infotainment",
-      "i-ACTIVSENSE Safety",
-      "LED Headlights",
-      "Push Button Start",
-      "Automatic Climate Control",
-      "Reverse Camera",
-      "Blind Spot Monitoring",
-      "Lane Departure Warning"
+      "⁠6-speed Automatic transmission",
+      "⁠2.3L Eco Boost Turbo I4 petrol",
+      "⁠Mileage 7,347 Km",
+      "⁠Full leather Seats",
+      "⁠Bluetooth connectivity",
+      "⁠Power - 310HP",
+      "⁠Apple car play and Android Auto",
+      "⁠Dual-zone climate control",
+      "⁠Emergency Braking Assist",
+      "⁠ABS & Traction Control",
+      "⁠Keyless ignition"
+
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop"
+      "/lovable-uploads/u1.jpg",
+      "/lovable-uploads/u2.jpg",
+      "/lovable-uploads/u3.jpg",
+      "/lovable-uploads/u4.jpg"
     ]
   },
   26: {

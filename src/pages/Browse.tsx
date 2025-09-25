@@ -179,6 +179,43 @@ const allCars: CarProps[] = [
     transmission: "Automatic transmission",
     engine: "3000cc TDI"
   },
+  {
+    id: 24,
+    title: "2013 Mercedes Benz C200",
+    image: "/lovable-uploads/t.jpg",
+    price: "KES 1,900,000",
+    year: 2013,
+    mileage: "60,000 km",
+    location: "Nairobi",
+    condition: "Second Hand",
+    transmission: "Automatic transmission",
+    engine: "1.8L, four-cylinder, petrol engine"
+  },
+  {
+    id: 25,
+    title: "2016 Ford Mustang EcoBoost",
+    image: "/lovable-uploads/u.jpg",
+    price: "KES 5,990,000",
+    year: 2016,
+    mileage: "60,000 km",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "6-speed Automatic transmission",
+    engine: "12.3L Eco Boost Turbo I4 petrol"
+  },
+  {
+    id: 26,
+    title: "2017 Subaru Impreza",
+    image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop",
+    price: "KES 2,700,000",
+    year: 2017,
+    mileage: "75,000 km",
+    location: "Nakuru",
+    condition: "Second Hand",
+    transmission: "Manual",
+    engine: "2.0L"
+  },
+
   ];
    {/*
 

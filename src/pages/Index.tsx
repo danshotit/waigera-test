@@ -142,33 +142,33 @@ const secondHandCars: CarProps[] = [
     transmission: "Automatic transmission",
     engine: "3000cc TDI"
   },
-  ];
 
-  {/*
   {
     id: 24,
-    title: "2018 Honda Fit",
-    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop",
+    title: "2013 Mercedes Benz C200",
+    image: "/lovable-uploads/t.jpg",
     price: "KES 1,900,000",
-    year: 2018,
+    year: 2013,
     mileage: "60,000 km",
-    location: "Mombasa",
+    location: "Nairobi",
     condition: "Second Hand",
-    transmission: "CVT",
-    engine: "1.3L"
+    transmission: "Automatic transmission",
+    engine: "1.8L, four-cylinder, petrol engine"
   },
   {
     id: 25,
-    title: "2020 Mazda Demio",
-    image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop",
-    price: "KES 2,200,000",
-    year: 2020,
-    mileage: "35,000 km",
-    location: "Kisumu",
-    condition: "Second Hand",
-    transmission: "Automatic",
-    engine: "1.5L"
-  }*/}
+    title: "2016 Ford Mustang EcoBoost",
+    image: "/lovable-uploads/u.jpg",
+    price: "KES 5,990,000",
+    year: 2016,
+    mileage: "60,000 km",
+    location: "Nairobi",
+    condition: "Slightly Used",
+    transmission: "6-speed Automatic transmission",
+    engine: "12.3L Eco Boost Turbo I4 petrol"
+  }
+
+   ];
 
 
 const popularBrands = [
