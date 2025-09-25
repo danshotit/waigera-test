@@ -108,33 +108,37 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
   },
   4: {
     id: 4,
-    title: "2022 Subaru Outback",
-    image: "https://images.unsplash.com/photo-1626443274909-358db57edaf1?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 4,100,000",
-    year: 2022,
-    mileage: "18,000 km",
-    location: "Eldoret",
+    title: "2017 Peugeot 308 Petrol Variant ",
+    image: "/lovable-uploads/d.jpg",
+    price: "KES 2,300,000",
+    year: 2017,
+    mileage: "",
+    location: "Nairobi",
     condition: "Slightly Used",
-    transmission: "CVT",
-    engine: "2.5L Boxer",
-    description: "The 2022 Subaru Outback is the perfect adventure companion with its rugged capability and refined comfort. Featuring Subaru's legendary Boxer engine and standard all-wheel drive, it's ready for any terrain while providing excellent fuel economy.",
+    transmission: "6-speed Automatic",
+    engine: "1.6L Turbocharged inline-4",
+    description: "The 2017 Peugeot 308 1.6 THP (205 hp) is a compelling choice for drivers seeking style, performance, and everyday flexibility. Its turbocharged powertrain delivers energetic acceleration, its efficient fuel use and moderate CO₂ output align with modern expectations, and its practicality ensures family-friendly usability—especially in estate configurations.",
     features: [
-      "2.5L BOXER Engine",
-      "Symmetrical All-Wheel Drive",
-      "Lineartronic CVT",
-      "EyeSight Driver Assist",
-      "8-inch Touchscreen",
-      "X-MODE with Hill Descent Control",
-      "Roof Rails and Crossbars",
-      "LED Steering Responsive Headlights",
-      "Heated Front and Rear Seats",
-      "Power Rear Gate"
+      "1.6L Turbocharged inline-4 Engine",
+      "⁠Front-wheel drive system",
+      "⁠6-speed Automatic Transmission",
+      "⁠Multi-function steering wheel",
+      "⁠Adaptive Cruise Control",
+      "⁠Front seats heated and ventilated",
+      "⁠start / stop technology ",
+      "⁠Dual-zone climate control",
+      "⁠ISOFIX Mounts",
+      "⁠Touchscreen Infotainment system",
+      "⁠Rear Parking sensors"
+
+
+    
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1626443274909-358db57edaf1?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1612911912304-5c8532fb94fb?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop"
+      "/lovable-uploads/d1.jpg",
+      "/lovable-uploads/d2.jpg",
+      "/lovable-uploads/d3.jpg",
+      "/lovable-uploads/d4.jpg"
     ]
   },
   5: {
