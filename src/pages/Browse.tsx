@@ -203,6 +203,10 @@ const allCars: CarProps[] = [
     transmission: "6-speed Automatic transmission",
     engine: "12.3L Eco Boost Turbo I4 petrol"
   },
+
+    ];
+
+    {/*
   {
     id: 26,
     title: "2017 Subaru Impreza",
@@ -216,8 +220,8 @@ const allCars: CarProps[] = [
     engine: "2.0L"
   },
 
-  ];
-   {/*
+
+   
 
     {
     id: 21,
