@@ -7,7 +7,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const { toast } = useToast();
