@@ -7,101 +7,103 @@ import CarCard, { CarProps } from '@/components/CarCard';
 // Showroom cars data with matching details
 const showroomCars: CarProps[] = [
   {
+    
     id: 5,
-    title: "2024 Mercedes-AMG GLE 53",
-    image: "/lovable-uploads/4dbfb66c-2542-4bd2-b11d-68ff6c51b196.png",
-    price: "KES 12,500,000",
-    year: 2024,
+    title: "2018 Audi q5",
+    image: "/lovable-uploads/e.jpg",
+    price: "KES 5,990,000",
+    year: 2018,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L V6 Turbo"
+    transmission: "7-speed Automatic Dual-clutch",
+    engine: "2.0L Turbocharged inline-4 Engine"
   },
   {
     id: 6,
-    title: "2024 Range Rover Sport",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 15,200,000",
-    year: 2024,
+    title: "2022 Land Rover Defender 110",
+    image: "/lovable-uploads/c.jpg",
+    price: "KES 18,900,000",
+    year: 2022,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L V6"
+    transmission: "8-speed Automatic",
+    engine: "3.0L Inline 6 Twin-Turbocharged Diesel"
   },
   {
     id: 7,
-    title: "2024 BMW X7",
-    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 13,800,000",
-    year: 2024,
+    title: "2017 Peugeot 308 Diesel Variant",
+    image: "/lovable-uploads/a.jpg",
+    price: "KES 2,200,000",
+    year: 2017,
     mileage: "0 km",
-    location: "Mombasa",
+    location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TwinPower"
+    transmission: "6-speed Automatic",
+    engine: "1.6L BlueHDi Diesel Engine"
   },
   {
     id: 8,
-    title: "2024 Audi Q8",
-    image: "https://images.unsplash.com/photo-1612057248888-acb0bcbe2dba?q=80&w=2069&auto=format&fit=crop",
-    price: "KES 11,700,000",
-    year: 2024,
+    title: "2018 Ford Ranger Thunder",
+    image: "/lovable-uploads/m.jpg",
+    price: "KES 6,900,000",
+    year: 2018,
     mileage: "0 km",
     location: "Nairobi",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L TFSI"
+    transmission: "10-speed Automatic",
+    engine: "2.0L Bi-Turbo Diesel"
   },
   {
-    id: 13,
-    title: "2024 Porsche Cayenne",
-    image: "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=2074&auto=format&fit=crop",
-    price: "KES 18,900,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
-    condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.0L Turbo"
-  },
-  {
-    id: 14,
-    title: "2024 Volvo XC90",
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 11,200,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
-    condition: "Showroom",
-    transmission: "Automatic",
-    engine: "2.0L T8 Hybrid"
-  },
-  {
-    id: 15,
-    title: "2024 Jaguar F-Pace",
-    image: "https://images.unsplash.com/photo-1563720223523-499384a901af?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 11,800,000",
-    year: 2024,
-    mileage: "0 km",
+    id: 101,
+    title: "2020 Lamborghini Urus Giallo Auge",
+    image: "/lovable-uploads/n.jpg",
+    price: "Upon request",
+    year: 2020,
+    mileage: "",
     location: "Mombasa",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "2.0L Ingenium"
+    transmission: "Automatic transmission",
+    engine: "4.0L Twin-Turbo V8"
   },
   {
-    id: 16,
-    title: "2024 Lexus RX 350",
-    image: "https://images.unsplash.com/photo-1546522072-4d03bcbeb394?q=80&w=1978&auto=format&fit=crop",
-    price: "KES 9,500,000",
-    year: 2024,
-    mileage: "0 km",
-    location: "Nairobi",
+    id: 102,
+    title: "2018 Lexus RX300",
+    image: "/lovable-uploads/o.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
     condition: "Showroom",
-    transmission: "Automatic",
-    engine: "3.5L V6"
-  }
+    transmission: "Automatic transmission",
+    engine: "2.0L Turbocharged Petrol"
+  },
+  {
+    id: 103,
+    title: "2022 Lexus LX600 VIP Elegance",
+    image: "/lovable-uploads/l.jpg",
+    price: "Upon request",
+    year: 2022,
+    mileage: "",
+    location: "Mombasa",
+    condition: "Showroom",
+    transmission: "Automatic transmission",
+    engine: "3.5L Twin-Turbo Petrol"
+  },
+  {
+    id: 104,
+    title: "2018 Mercedes Benz E350e AMG LINE",
+    image: "/lovable-uploads/k.jpg",
+    price: "Upon request",
+    year: 2018,
+    mileage: "",
+    location: "Mombasa",
+    condition: "Showroom",
+    transmission: "Automatic transmission",
+    engine: "2.0L  Petrol Engine + Electric Motor"
+  },
+  
 ];
 
 const Showroom = () => {
