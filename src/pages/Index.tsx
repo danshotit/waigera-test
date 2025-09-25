@@ -209,14 +209,14 @@ const Index = () => {
       />
       
       {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWJ64ZXEPY"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID');
+            gtag('config', 'G-MWJ64ZXEPY');
           `,
         }}
       />

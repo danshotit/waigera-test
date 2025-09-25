@@ -16,7 +16,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   description = "Kenya's premier marketplace for buying and selling quality used and showroom cars. Find your dream car with competitive pricing, warranty, and financing options.",
   keywords = "cars for sale Kenya, used cars Nairobi, showroom cars, Toyota Kenya, car dealership, vehicle financing, trade-in cars",
   canonical,
-  ogImage = "https://lovable.dev/opengraph-image-p98pqg.png",
+  ogImage = "https://lovable.dev/wlogo.jpg",
   ogType = "website",
   structuredData
 }) => {
