@@ -288,8 +288,7 @@ const Index = () => {
             </Link>
           </div>
           
-          <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:overflow-visible border border-white rounded-xl">
-
+          <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:overflow-visible">
             {newArrivals.map((car, index) => (
               <div 
                 key={car.id} 
@@ -404,8 +403,7 @@ const Index = () => {
       
       {/* Why Choose Us Section */}
       <section className="py-20 bg-black">
-        <div className="container mx-auto px-4 border border-white rounded-xl">
-
+        <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-2xl mx-auto">
             <h2 className="section-title text-white">Why Choose Waigera</h2>
             <p className="text-gray-400 text-lg">The premier destination for buying and selling quality used and showroom cars in Nairobi, Kenya.</p>
