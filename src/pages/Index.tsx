@@ -292,7 +292,7 @@ const Index = () => {
             {newArrivals.map((car, index) => (
               <div 
                 key={car.id} 
-                className="opacity-0 animate-fade-in flex-shrink-0 w-80 md:w-auto"
+                className="opacity-0 animate-fade-in flex-shrink-0 w-80 md:w-auto border border-white rounded-xl"
                 style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'forwards' }}
               >
                 <CarCard car={car} />
