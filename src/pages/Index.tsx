@@ -403,7 +403,8 @@ const Index = () => {
       
       {/* Why Choose Us Section */}
       <section className="py-20 bg-black">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 border border-white rounded-xl">
+
           <div className="text-center mb-16 max-w-2xl mx-auto">
             <h2 className="section-title text-white">Why Choose Waigera</h2>
             <p className="text-gray-400 text-lg">The premier destination for buying and selling quality used and showroom cars in Nairobi, Kenya.</p>
