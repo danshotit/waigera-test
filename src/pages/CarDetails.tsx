@@ -898,7 +898,7 @@ const CarDetails = () => {
                     </div>
                     <div>
                       <p className="text-gray-500 text-sm">Phone</p>
-                      <p className="text-gray-900">+254795838290</p>
+                      <p className="text-white">+254795838290</p>
                     </div>
                   </div>
                   
@@ -908,7 +908,7 @@ const CarDetails = () => {
                     </div>
                     <div>
                       <p className="text-gray-500 text-sm">Email</p>
-                      <p className="text-gray-900">info@waigera.co</p>
+                      <p className="text-white">info@waigera.co</p>
                     </div>
                   </div>
                 </div>
@@ -987,7 +987,7 @@ const CarDetails = () => {
           {/* Similar cars */}
           <div className="mt-16">
             <div className="flex justify-between items-center mb-8">
-              <h3 className="text-2xl font-bold text-gray-900">Similar Cars</h3>
+              <h3 className="text-2xl font-bold text-white">Similar Cars</h3>
               <Link to="/browse">
                 <Button variant="outline" className="border-[#33e9f2] text-[#33e9f2] hover:bg-[#33e9f2]/10 group">
                   View All
@@ -1021,8 +1021,8 @@ const CarDetails = () => {
                             </div>
                           </div>
                           <div className="p-6">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2 mt-2">{similarCar.title}</h3>
-                            <div className="flex items-center text-gray-600 mb-4">
+                            <h3 className="text-xl font-semibold text-white mb-2 mt-2">{similarCar.title}</h3>
+                            <div className="flex items-center text-white mb-4">
                               <Navigation className="w-4 h-4 mr-1" />
                               <span className="text-sm">{similarCar.location}</span>
                             </div>
