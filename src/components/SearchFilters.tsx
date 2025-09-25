@@ -34,6 +34,7 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({ onFilter }) => {
     priceRange: [0, 20]
   });
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleInputChange = (field: keyof FilterState, value: any) => {
     const newFilters = { ...filters, [field]: value };
     setFilters(newFilters);

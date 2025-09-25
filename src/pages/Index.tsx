@@ -120,28 +120,31 @@ const showroomCars: CarProps[] = [
 const secondHandCars: CarProps[] = [
   {
     id: 22,
-    title: "2011 Toyota Mark X",
-    image: "/lovable-uploads/fab55516-2a0f-484c-9703-a710a0ed28ec.png",
-    price: "KES 610,000",
-    year: 2011,
-    mileage: "180,000 km",
-    location: "Chavakali",
+    title: "2014 BMW 116i",
+    image: "",
+    price: "KES 1,500,000",
+    year: 2014,
+    mileage: "",
+    location: "Nairobi",
     condition: "Second Hand",
     transmission: "Automatic",
-    engine: "3.5L V6"
+    engine: " 1600cc petrol engine"
   },
   {
     id: 23,
-    title: "2019 Toyota Corolla",
-    image: "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 2,800,000",
-    year: 2019,
-    mileage: "45,000 km",
+    title: "2011 Volkswagen Touareg TDI",
+    image: "",
+    price: "KES 2,750,000",
+    year: 2011,
+    mileage: "",
     location: "Nairobi",
     condition: "Second Hand",
-    transmission: "Manual",
-    engine: "1.8L"
+    transmission: "Automatic transmission",
+    engine: "3000cc TDI"
   },
+  ];
+
+  {/*}
   {
     id: 24,
     title: "2018 Honda Fit",
@@ -165,8 +168,8 @@ const secondHandCars: CarProps[] = [
     condition: "Second Hand",
     transmission: "Automatic",
     engine: "1.5L"
-  }
-];
+  }*/}
+
 
 const popularBrands = [
   { name: "Toyota", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Toyota_carlogo.svg/1024px-Toyota_carlogo.svg.png" },

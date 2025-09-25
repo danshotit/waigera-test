@@ -274,7 +274,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
       "/lovable-uploads/m1.jpg",
       "/lovable-uploads/m2.jpg",
       "/lovable-uploads/m3.jpg",
-      "/lovable-uploads/m4.jpg"
+      "/lovable-uploads/m.jpg"
     ]
   },
   9: {
@@ -557,65 +557,62 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
     ]
   },
   22: {
+    
     id: 22,
-    title: "2011 Toyota Mark X",
-    image: "/lovable-uploads/fab55516-2a0f-484c-9703-a710a0ed28ec.png",
-    price: "KES 610,000",
-    year: 2011,
-    mileage: "180,000 km",
-    location: "Chavakali",
+    title: "2014 BMW 116i",
+    image: "/lovable-uploads/p.jpg",
+    price: "KES 1,500,000",
+    year: 2014,
+    mileage: "",
+    location: "Nairobi",
     condition: "Second Hand",
     transmission: "Automatic",
-    engine: "3.5L V6",
+    engine: " 1600cc petrol engine",
     description: "This 2011 Toyota Mark X offers reliable performance and luxury features at an affordable price. Despite its mileage, this V6-powered sedan has been well-maintained and provides excellent value for money with Toyota's renowned reliability.",
     features: [
-      "3.5L V6 Engine",
+      "Engine 1600cc petrol engine",
       "Automatic Transmission",
-      "Leather Interior",
-      "Power Windows",
-      "Central Locking",
-      "Air Conditioning",
-      "Alloy Wheels",
-      "CD Player",
-      "Electric Mirrors",
-      "ABS Brakes"
+      "⁠Drive Type 2wd",
+      "⁠Entertainment display",
+      "⁠Black & Beige leather seats",
+      "⁠Black Paint code",
+      " Seaters 5"
+      
     ],
     gallery: [
-      "/lovable-uploads/fab55516-2a0f-484c-9703-a710a0ed28ec.png",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop"
+      "/lovable-uploads/p1.jpg",
+      "/lovable-uploads/p2.jpg",
+      "/lovable-uploads/p3.jpg",
+      "/lovable-uploads/p4.jpg"
     ]
   },
   23: {
     id: 23,
-    title: "2019 Toyota Corolla",
-    image: "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-    price: "KES 2,800,000",
-    year: 2019,
-    mileage: "45,000 km",
+    title: "2011 Volkswagen Touareg TDI",
+    image: "",
+    price: "KES 2,750,000",
+    year: 2011,
+    mileage: "",
     location: "Nairobi",
     condition: "Second Hand",
-    transmission: "Manual",
-    engine: "1.8L",
-    description: "The 2019 Toyota Corolla is a reliable and fuel-efficient sedan perfect for daily commuting. With its proven 1.8L engine and manual transmission, it offers excellent fuel economy and Toyota's legendary reliability at an attractive price point.",
+    transmission: "Automatic transmission",
+    engine: "3000cc TDI",
+    description: "This 2011 Toyota Mark X offers reliable performance and luxury features at an affordable price. Despite its mileage, this V6-powered sedan has been well-maintained and provides excellent value for money with Toyota's renowned reliability.",
     features: [
-      "1.8L 4-Cylinder Engine",
-      "Manual Transmission",
-      "Toyota Safety Sense 2.0",
-      "7-inch Touchscreen",
-      "Bluetooth Connectivity",
-      "Backup Camera",
-      "LED Headlights",
-      "Automatic Climate Control",
-      "Power Windows and Locks",
-      "Cruise Control"
+      "Engine 1600cc petrol engine",
+      "Automatic Transmission",
+      "⁠Drive Type 2wd",
+      "⁠Entertainment display",
+      "⁠Black & Beige leather seats",
+      "⁠Black Paint code",
+      " Seaters 5"
+      
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1549399723-3edf5179d6c4?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=2072&auto=format&fit=crop"
+      "/lovable-uploads/q1.jpg",
+      "/lovable-uploads/q2.jpg",
+      "/lovable-uploads/q3.jpg",
+      "/lovable-uploads/q4.jpg"
     ]
   },
   24: {

@@ -154,8 +154,8 @@ const allCars: CarProps[] = [
     transmission: "Automatic transmission",
     engine: "2.0L  Petrol Engine + Electric Motor"
   },
-  ];
-  {/*{
+  
+ {
     id: 17,
     title: "2021 BMW X3",
     image: "/lovable-uploads/8ae49a93-e1e2-4bd5-bbb6-2f93f7c9f72c.png",
@@ -179,6 +179,32 @@ const allCars: CarProps[] = [
     transmission: "DSG",
     engine: "2.0L TSI"
   },
+  {
+    id: 22,
+    title: "2014 BMW 116i",
+    image: "",
+    price: "KES 1,500,000",
+    year: 2014,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Second Hand",
+    transmission: "Automatic",
+    engine: " 1600cc petrol engine"
+  },
+  {
+    id: 23,
+    title: "2011 Volkswagen Touareg TDI",
+    image: "",
+    price: "KES 2,750,000",
+    year: 2011,
+    mileage: "",
+    location: "Nairobi",
+    condition: "Second Hand",
+    transmission: "Automatic transmission",
+    engine: "3000cc TDI"
+  },
+  ];
+   {/*
   {
     id: 19,
     title: "2023 Mitsubishi Lancer Evolution",
