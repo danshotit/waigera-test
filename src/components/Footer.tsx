@@ -10,7 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <Car className="w-8 h-8 text-kenya-purple" />
+              <img src="/lovable-uploads/wlogo.jpg" alt="Logo" className="w-8 h-8" />
+
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-kenya-blue to-kenya-purple"></span>
             </Link>
             <p className="text-sm max-w-xs">

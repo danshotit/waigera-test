@@ -29,7 +29,7 @@ import { AuthProvider } from "./components/auth/AuthContext";
 const queryClient = new QueryClient();
 
 // Replace with your actual Google Analytics Measurement ID
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+const GA_MEASUREMENT_ID = "G-MWJ64ZXEPY";
 
 const App = () => (
   <HelmetProvider>
