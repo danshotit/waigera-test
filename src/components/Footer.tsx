@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Waigera. All rights reserved.
+              © {new Date().getFullYear()} Waigera. All rights reserved. Built by Mucii App
             </p>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 text-sm">
               <Link to="/terms" className="hover:text-kenya-purple transition-colors">Terms of Service</Link>
