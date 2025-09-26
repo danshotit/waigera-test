@@ -650,7 +650,7 @@ const carData: { [key: number]: CarProps & { description: string, features: stri
     condition: "Second Hand",
     transmission: "Automatic transmission",
     engine: "1.8L, four-cylinder, petrol engine",
-    description: "The 2013 C Class is a compact executive car offered in sedan and wagon/coupe styles. Mercedes markets it as a refined blend of comfort, safety, and handling—aimed at buyers wanting a premium yet relatively compact car.  ￼In Kenya, it’s viewed as a solid executive sedan — spacious enough, well-finished interior, though import costs and servicing are considerations",
+    description: "The 2013 C Class is a compact executive car offered in sedan and wagon/coupe styles. Mercedes markets it as a refined blend of comfort, safety, and handling—aimed at buyers wanting a premium yet relatively compact car.  In Kenya, it’s viewed as a solid executive sedan — spacious enough, well-finished interior, though import costs and servicing are considerations",
     features: [
       "⁠Automatic transmission",
       "⁠Matte Black original color",
