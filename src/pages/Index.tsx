@@ -161,7 +161,7 @@ const secondHandCars: CarProps[] = [
     image: "/lovable-uploads/u.jpg",
     price: "KES 5,990,000",
     year: 2016,
-    mileage: "60,000 km",
+    mileage: "7,347 Km",
     location: "Nairobi",
     condition: "Slightly Used",
     transmission: "6-speed Automatic transmission",
