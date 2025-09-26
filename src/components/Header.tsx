@@ -47,7 +47,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 flex items-center justify-center">
-  <img src="/lovable-uploads/wlogo.jpg" alt="Logo" className="w-12 h-5" />
+  <img src="/lovable-uploads/wlogo.jpg" alt="Logo" className="w-32 h-12" />
 </div>
 
             <span className="text-xl font-bold text-foreground"></span>
